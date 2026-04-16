@@ -54,12 +54,6 @@ It relies on:
 
 ---
 
-## 📸 Preview
-
-> *(Insert a screenshot or GIF of the interface here)*
-
----
-
 ## 🗺 Roadmap
 
 - [ ] Multi-page export (ZIP)
