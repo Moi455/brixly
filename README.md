@@ -1,76 +1,81 @@
 # Brixly
 
-**Constructeur de sites no-code qui tourne entièrement dans votre navigateur.**
-Un fichier · Zéro dépendance · Zéro serveur.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-7B5EF8.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-3.0-7B5EF8)]()
+A no-code website builder that runs entirely in your browser.  
+**One file · Zero dependencies · Zero server**
 
 ---
 
-## ✨ Fonctionnalités
+## 📄 License
 
-- 🧱 **Éditeur par blocs** — glissez-déposez des sections prêtes à l'emploi (hero, features, articles, CTA…)
-- 📄 **Multi-pages** — gérez plusieurs pages dans un même projet
-- 📁 **Multi-projets** — basculez entre projets, tout est sauvegardé localement
-- ✏️ **Éditeur riche** — mode WYSIWYG et mode HTML brut, dans la même interface
-- 🔤 **30+ Google Fonts** — panel typographique avec suggestions de combinaisons
-- 🎨 **Palette & CSS** — éditeur de couleurs + injection de CSS personnalisé
-- 🖼 **Gestionnaire d'assets** — glissez des images, compression WebP automatique
-- 📰 **Système d'articles** — catégories, tags, slug, image à la une, extrait
-- 🌐 **Favicons** — importez un ZIP favicon.io directement
-- 📱 **Aperçu responsive** — desktop, tablette, mobile
-- 📤 **Export HTML** — téléchargez un fichier HTML propre et autonome
-- 📥 **Import** — chargez un HTML existant ou un projet JSON
-- 💾 **Zéro backend** — tout est sauvegardé dans le localStorage
+MIT License
 
-## 🚀 Démarrage rapide
+---
 
-Aucune installation requise.
+## ✨ Features
 
-1. Téléchargez [`index.html`](../../releases/latest)
-2. Ouvrez-le dans votre navigateur
-3. Commencez à construire
+- 🧱 **Block editor** — drag & drop ready-made sections (hero, features, articles, CTA…)
+- 📄 **Multi-page support** — manage multiple pages within a single project
+- 📁 **Multi-project support** — switch between projects, everything is saved locally
+- ✏️ **Rich editor** — WYSIWYG mode and raw HTML mode in the same interface
+- 🔤 **30+ Google Fonts** — typography panel with font pairing suggestions
+- 🎨 **Palette & CSS** — color editor + custom CSS injection
+- 🖼 **Asset manager** — drag & drop images, automatic WebP compression
+- 📰 **Article system** — categories, tags, slug, featured image, excerpt
+- 🌐 **Favicons** — import a favicon.io ZIP directly
+- 📱 **Responsive preview** — desktop, tablet, mobile
+- 📤 **HTML export** — download a clean, standalone HTML file
+- 📥 **Import** — load an existing HTML file or a JSON project
+- 💾 **Zero backend** — everything is stored in `localStorage`
 
-> Compatible Chrome, Firefox, Safari, Edge (versions récentes).
+---
+
+## 🚀 Quick Start
+
+No installation required.
+
+1. Download `index.html`
+2. Open it in your browser
+3. Start building
+
+**Compatible with:** Chrome, Firefox, Safari, Edge (recent versions)
+
+---
 
 ## 🏗 Architecture
 
-Brixly est un fichier HTML unique (~6 500 lignes) sans aucune dépendance externe ni framework JavaScript. Il exploite :
+Brixly is a single HTML file (~6,500 lines) with no external dependencies or frameworks.
 
-- **localStorage** pour la persistance des projets
-- **Canvas API** pour la compression d'images côté client (WebP automatique)
-- **Google Fonts** pour le chargement dynamique des polices
-- **iframe sandboxé** pour le rendu isolé du canvas d'édition
+It relies on:
 
-## 📸 Aperçu
-
-> *(Ajoutez ici une capture d'écran ou un GIF de l'interface)*
-
-## 🗺 Roadmap
-
-- [ ] Export multi-pages (ZIP)
-- [ ] Thèmes prédéfinis au démarrage
-- [ ] Historique undo/redo global
-- [ ] Mode sombre pour les pages exportées
-- [ ] Templates de projets
-
-## 🤝 Contribution
-
-Les contributions sont les bienvenues !
-
-1. Forkez le repo
-2. Créez une branche (`git checkout -b feature/ma-feature`)
-3. Commitez (`git commit -m 'feat: ajouter X'`)
-4. Poussez (`git push origin feature/ma-feature`)
-5. Ouvrez une Pull Request
-
-## 📄 Licence
-
-Distribué sous licence **MIT** — voir [`LICENSE`](LICENSE).
+- `localStorage` → project persistence
+- Canvas API → client-side image compression (automatic WebP conversion)
+- Google Fonts → dynamic font loading
+- Sandboxed iframe → isolated rendering of the editor canvas
 
 ---
 
-<div align="center">
-  Fait avec ❤️ — un seul fichier pour tout construire.
-</div>
+## 📸 Preview
+
+> *(Insert a screenshot or GIF of the interface here)*
+
+---
+
+## 🗺 Roadmap
+
+- [ ] Multi-page export (ZIP)
+- [ ] Predefined startup themes
+- [ ] Global undo/redo history
+- [ ] Dark mode for exported pages
+- [ ] Project templates
+
+---
+
+## 🤝 Contribution
+
+Contributions are welcome.
+
+```bash
+# Fork the repository
+git checkout -b feature/my-feature
+git commit -m "feat: add X"
+git push origin feature/my-feature
