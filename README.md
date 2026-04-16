@@ -1,4 +1,4 @@
-# Brixly
+# OpenForge
 
 A no-code website builder that runs entirely in your browser.  
 **One file · Zero dependencies · Zero server**
@@ -43,7 +43,7 @@ No installation required.
 
 ## 🏗 Architecture
 
-Brixly is a single HTML file (~6,500 lines) with no external dependencies or frameworks.
+OpenForge is a single HTML file (~6,500 lines) with no external dependencies or frameworks.
 
 It relies on:
 
